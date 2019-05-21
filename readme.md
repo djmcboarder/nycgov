@@ -1,6 +1,6 @@
 Team 1
 
-The Challenge
+The Challenge:
 Government websites play an important role in providing citizens with the information they need to access the vast amounts of resources available to them. That being said, some government websites do this job better than others.
 Redesign the front page of the nyc.gov website.
 
