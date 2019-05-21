@@ -1,0 +1,74 @@
+/* Our CSS */
+
+body {
+	font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-style: italic;
+	color: #FFFFFF;
+}
+h2 {
+	font-size: 35px;
+}
+.navbar {
+	min-height: 20vh;
+	font-family: Roboto;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	
+}
+.navbar-nav>li {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.img-thumbnail {
+	width: 5em;
+}
+.central-park {
+	height: 80vh;
+	background: url('https://cdn.glitch.com/8fd24bca-3eee-429f-88c6-5ca7ef90551b%2Famerica-architecture-blue-sky-1239162.jpg?1558207082078');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-animation: mymove 80s infinite;
+	animation: mymove 80s infinite;
+}
+@-webkit-keyframes mymove {
+	0% {
+		background-position: left top;
+	}
+	100% {
+		background-position: right top;
+	}
+}
+@keyframes mymove {
+	0% {
+		background-position: left top;
+	}
+	100% {
+		background-position: right top;
+	}
+}
+.box {
+	border: 4px #fff solid;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.box a {
+	color: #fff;
+}
+.space {
+	height: 20vh;
+}
+#message {
+	color: #FFFFFF;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+.centered {
+	text-align: center
+}
